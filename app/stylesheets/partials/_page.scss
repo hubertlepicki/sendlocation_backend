@@ -36,7 +36,9 @@ input:invalid, textarea:invalid {
 // Add your own custom styles below
 //-----------------------------------
 
-body {}
+body {
+  background-color: black;
+}
 
 #container {}
 
@@ -45,3 +47,7 @@ header {}
 #main {}
 
 footer {}
+
+#map_canvas * {
+  color: #555;
+}

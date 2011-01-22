@@ -120,7 +120,7 @@ pre, code, kbd, samp {
 
 /* line 16, ../../app/stylesheets/partials/_example.scss */
 body, select, input, textarea {
-  color: #444444;
+  color: #fafafa;
 }
 
 /* line 18, ../../app/stylesheets/partials/_example.scss */
@@ -380,4 +380,14 @@ input:invalid, textarea:invalid {
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid {
   background-color: #f0dddd;
+}
+
+/* line 39, ../../app/stylesheets/partials/_page.scss */
+body {
+  background-color: black;
+}
+
+/* line 51, ../../app/stylesheets/partials/_page.scss */
+#map_canvas * {
+  color: #555;
 }
