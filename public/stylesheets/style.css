@@ -384,7 +384,7 @@ input:invalid, textarea:invalid {
 
 /* line 39, ../../app/stylesheets/partials/_page.scss */
 body {
-  background-color: black;
+  background: black url("/images/compass.gif") no-repeat top left;
 }
 
 /* line 49, ../../app/stylesheets/partials/_page.scss */
@@ -399,5 +399,9 @@ footer {
 
 /* line 55, ../../app/stylesheets/partials/_page.scss */
 #map_canvas {
-  margin: auto;
+  margin: 50px auto 10px auto;
+  border: 2px solid #6c7dda;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 10px #6c7dda;
 }

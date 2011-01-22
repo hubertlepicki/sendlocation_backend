@@ -25,5 +25,12 @@ $(function() {
     google.maps.event.addListener(marker, 'click', function() {
         infowindow.open(map,marker);
     });
+
+    if ($(window).width() >= 800) {
+      $("#map_canvas").height($(window).height()-100);
+      $("#map_canvas").width($(window).width()-100);
+      google.maps.event.trigger(map, "resize");
+      map.setCenter(latlng);
+    };
   }
 });
