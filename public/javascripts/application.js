@@ -7,7 +7,8 @@ $(function() {
     var myOptions = {
       zoom: parseInt($("#map_canvas").attr('data-zoom')),
       center: latlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: false
     };
 
     var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
