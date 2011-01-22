@@ -46,8 +46,13 @@ header {}
 
 #main {}
 
-footer {}
+footer { text-align: center }
 
 #map_canvas * {
   color: #555;
 }
+
+#map_canvas {
+  margin: auto;
+}
+
