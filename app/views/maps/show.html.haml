@@ -1,7 +1,7 @@
 #map_canvas{:style => "width: 420px; height: 300px;", |
   'data-lat' => params[:lat].gsub(',','.'),           |
   'data-lng' => params[:lng].gsub(',','.'),           |
-  'data-description' => params[:description],         |
+  'data-description' => CGI::unescape(params[:description]),         |
   'data-marker-type' => params[:marker_type],         |
   'data-zoom' => params[:zoom_level]                  |
   }                                                   |
